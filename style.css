@@ -91,15 +91,26 @@ body{
     margin-top:20px;
   }
   
-  #boxes .box{
+  #boxes .box-sport{
     float:left;
     text-align: center;
     width:30%;
     padding:10px;
   }
   
-  #boxes .box img{
-    width:90px;
+  #boxes .box-gta{
+    float:right;
+    text-align: center;
+    width:30%;
+    padding:10px;
+  }
+  
+  #boxes .box-sport img{
+    width:180px;
+  }
+
+  #boxes .box-gta img{
+    width:180px;
   }
   
   /* Sidebar */
