@@ -112,6 +112,28 @@ body{
   #boxes .box-gta img{
     width:180px;
   }
+
+#boxes .box-snake{
+    float:left;
+    text-align: center;
+    width:60%;
+    padding:30px;
+  }
+  
+  #boxes .box-flappybird{
+    float:left;
+    text-align: center;
+    width:60%;
+    padding:30px;
+  }
+  
+  #boxes .box-snake img{
+    width:250px;
+  }
+
+   #boxes .box-flappybird img{
+    width:250px;
+  }
   
   /* Sidebar */
   aside#sidebar{
