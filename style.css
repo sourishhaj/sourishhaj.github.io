@@ -121,7 +121,7 @@ body{
   }
   
   #boxes .box-flappybird{
-    float:left;
+    float:right;
     text-align: center;
     width:60%;
     padding:30px;
