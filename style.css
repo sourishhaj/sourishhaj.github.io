@@ -129,10 +129,12 @@ body{
   
   #boxes .box-snake img{
     width:250px;
+    padding:60px;
   }
 
    #boxes .box-flappybird img{
     width:250px;
+    padding:60px;
   }
   
   /* Sidebar */
