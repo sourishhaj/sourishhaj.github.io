@@ -116,15 +116,15 @@ body{
 #boxes .box-snake{
     float:left;
     text-align: center;
-    width:60%;
-    padding:30px;
+    width:100%;
+    padding:60px;
   }
   
   #boxes .box-flappybird{
     float:right;
     text-align: center;
-    width:60%;
-    padding:30px;
+    width:100%;
+    padding:60px;
   }
   
   #boxes .box-snake img{
