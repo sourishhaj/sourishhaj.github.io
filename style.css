@@ -134,7 +134,51 @@ body{
     width:250px;
     padding:60px;
   }
+    
+#boxes .box-soccer{
+    float:left;
+    text-align: center;
+    width:30%;
+    padding:10px;
+  }
+
+ #boxes .box-soccer img{
+    width:180px;
+  }
   
+#boxes .box-football{
+    float:middle;
+    text-align: center;
+    width:30%;
+    padding:10px;
+  }
+
+ #boxes .box-football img{
+    width:180px;
+  }
+
+#boxes .box-burger{
+    float:right;
+    text-align: center;
+    width:30%;
+    padding:10px;
+  }
+
+ #boxes .box-burger img{
+    width:180px;
+  }
+
+#boxes .box-pizza{
+    float:middle;
+    text-align: center;
+    width:30%;
+    padding:10px;
+  }
+
+ #boxes .box-pizza img{
+    width:180px;
+  }
+
   /* Sidebar */
   aside#sidebar{
     float:right;
