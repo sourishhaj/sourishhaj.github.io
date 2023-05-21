@@ -4,11 +4,17 @@
   <title>Professional Subsite Layout</title>
   <style>
     /* Reset some default styles */
-    body, h1, p {
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
       margin: 0;
       padding: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
     }
-    
+
     /* Set up the layout */
     .container {
       display: flex;
@@ -16,27 +22,34 @@
       align-items: center;
       justify-content: center;
       min-height: 100vh;
-      background-color: #f2f2f2;
-      font-family: Arial, sans-serif;
+      background-color: #fff;
     }
-    
+
     .header {
+      background-color: #333;
+      padding: 20px;
+      color: #fff;
       text-align: center;
-      margin-bottom: 20px;
     }
-    
+
     .content {
       max-width: 800px;
-      padding: 20px;
-      background-color: #fff;
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-      border-radius: 4px;
-    }
-    
-    .footer {
+      padding: 40px;
       text-align: center;
-      margin-top: 20px;
-      color: #999;
+    }
+
+    .footer {
+      background-color: #333;
+      padding: 20px;
+      color: #fff;
+      text-align: center;
+    }
+
+    /* Responsive styles */
+    @media (max-width: 600px) {
+      .content {
+        padding: 20px;
+      }
     }
   </style>
 </head>
